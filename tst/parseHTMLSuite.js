@@ -12,6 +12,6 @@ buster.testCase("parseHTML test suite", {
         var frag = abeja.parseHTML(html);
         assert.same('P',  frag.firstChild.tagName);
         assert.same('a paragraph', frag.firstChild.innerHTML);
-    },
+    }
 
 });
