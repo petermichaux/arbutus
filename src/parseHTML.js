@@ -4,7 +4,7 @@
 
 @parameter html {string} The string of HTML to be parsed.
 
-@parameter doc {Document} The document object to create the new DOM nodes.
+@parameter doc {Document} Optional document object to create the new DOM nodes.
 
 @description
 
