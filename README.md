@@ -1,7 +1,7 @@
 Arbutus
 =====
 
-A JavaScript library to create DOM structures from HTML strings.
+A JavaScript library to create DOM trees from HTML strings.
 
 
 Examples
