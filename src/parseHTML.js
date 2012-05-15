@@ -40,7 +40,6 @@
             var parser = doc.createElement('div');
             var fragment = doc.createDocumentFragment();
             parser.innerHTML = this.before + html + this.after;
-            // console.log(parser.innerHTML);
             var node = this.getFirstResult(parser);
             var nextNode;
             while (node) {
