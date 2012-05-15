@@ -10,9 +10,9 @@ Examples
 ```arbutus.parseHTML``` returns a DocumentFragment.
 
 ```javascript
-var fragment = arbutus.parseHTML('&lt;div>alpha&lt;/div>');
+var fragment = arbutus.parseHTML('<div>alpha</div>');
 fragment.firstChild.tagName; // 'DIV'
-var fragment = arbutus.parseHTML('  abc&lt;span>beta&lt;/span>');
+var fragment = arbutus.parseHTML('  abc<span>beta</span>');
 fragment.firstChild.nodeValue; // 'abc'
 fragment.firstChild.nextSibling.tagName; // 'SPAN'
 ```
