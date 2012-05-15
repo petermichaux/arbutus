@@ -18,6 +18,12 @@ fragment.firstChild.nextSibling.tagName; // 'SPAN'
 ```
 
 
+Releases
+--------
+
+See the releases directory for production ready builds.
+
+
 Status
 ------
 
