@@ -71,7 +71,7 @@
 
 /**
 
-@property abeja.parseHTML
+@property arbutus.parseHTML
 
 @parameter html {string} The string of HTML to be parsed.
 
@@ -85,14 +85,14 @@ The html string will be trimmed.
 
 Returns a document fragment that has the children defined by the html string.
 
-var fragment = abeja.parseHTML('<p>alpha beta</p>');
+var fragment = arbutus.parseHTML('<p>alpha beta</p>');
 document.body.appendChild(fragment);
 
 Note that a call to this function is relatively expensive and you probably
 don't want to have a loop of thousands with calls to this function.
 
 */
-    abeja.parseHTML = function(html, doc) {
+    arbutus.parseHTML = function(html, doc) {
         // IE will trim when setting innerHTML so unify for all browsers
         html = trim(html);
         var matches = html.match(tagRegExp),

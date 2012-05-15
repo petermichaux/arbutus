@@ -1,4 +1,4 @@
-Abeja
+Arbutus
 =====
 
 A JavaScript library to create DOM structures from HTML strings.
@@ -7,12 +7,12 @@ A JavaScript library to create DOM structures from HTML strings.
 Examples
 --------
 
-```abeja.parseHTML``` returns a DocumentFragment.
+```arbutus.parseHTML``` returns a DocumentFragment.
 
 ```javascript
-var fragment = abeja.parseHTML('&lt;div>alpha&lt;/div>');
+var fragment = arbutus.parseHTML('&lt;div>alpha&lt;/div>');
 fragment.firstChild.tagName; // 'DIV'
-var fragment = abeja.parseHTML('  abc&lt;span>beta&lt;/span>');
+var fragment = arbutus.parseHTML('  abc&lt;span>beta&lt;/span>');
 fragment.firstChild.nodeValue; // 'abc'
 fragment.firstChild.nextSibling.tagName; // 'SPAN'
 ```
