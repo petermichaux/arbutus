@@ -21,7 +21,7 @@ fragment.firstChild.nextSibling.tagName; // 'SPAN'
 Releases
 --------
 
-See the releases directory for production ready builds.
+See http://peter.michaux.ca/downloads/arbutus for production ready builds.
 
 
 Status
