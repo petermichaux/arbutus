@@ -18,8 +18,8 @@ fragment.firstChild.nextSibling.tagName; // 'SPAN'
 ```
 
 
-Releases
---------
+Downloads
+---------
 
 See http://peter.michaux.ca/downloads/arbutus/ for production ready builds.
 
