@@ -1,1 +1,1 @@
-var arbutus = arbutus || {};
+var arbutus = {};
