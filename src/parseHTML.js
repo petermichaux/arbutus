@@ -32,7 +32,7 @@
         if (getFirstResult) {
             this.getFirstResult = getFirstResult;
         }
-    };
+    }
     Parser.prototype = {
         before: '',
         after: '',
