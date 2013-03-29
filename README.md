@@ -1,5 +1,5 @@
 Arbutus
-=====
+=======
 
 A JavaScript library to create DOM trees from HTML strings.
 
@@ -27,7 +27,7 @@ See http://peter.michaux.ca/downloads/arbutus/ for production ready builds.
 Status
 ------
 
-Ready.
+Stable.
 
 
 Browser Support
