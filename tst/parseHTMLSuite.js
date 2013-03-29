@@ -103,14 +103,14 @@ buster.testCase("parseHTML test suite", {
     },
 
     "test parse unchecked radio": function() {
-        var html = '   <input type="radio" name="alpha"></option>   ';
+        var html = '   <input type="radio" name="alpha">   ';
         var frag = arbutus.parseHTML(html);
         assert.same('INPUT',  frag.firstChild.tagName);
         assert.same(false, frag.firstChild.checked);
     },
 
     "test parse checked radio": function() {
-        var html = '   <input type="radio" name="alpha" checked="checked"></option>   ';
+        var html = '   <input type="radio" name="alpha" checked="checked">   ';
         var frag = arbutus.parseHTML(html);
         assert.same('INPUT',  frag.firstChild.tagName);
         assert.same(true, frag.firstChild.checked);
