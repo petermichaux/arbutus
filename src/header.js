@@ -1,6 +1,6 @@
 /*
-Arbutus version 2
-Copyright (c) 2012, Peter Michaux
+Arbutus version 3
+Copyright (c) 2013, Peter Michaux
 All rights reserved.
 Licensed under the Simplified BSD License.
 https://github.com/petermichaux/arbutus/blob/master/LICENSE
