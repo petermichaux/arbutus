@@ -58,25 +58,21 @@
 
 /**
 
-@property arbutus.parseHTML
-
-@parameter html {string} The string of HTML to be parsed.
-
-@parameter doc {Document} Optional document object to create the new DOM nodes.
-
-@return {DocumentFragment}
-
-@description
-
 The html string will be trimmed.
 
 Returns a document fragment that has the children defined by the html string.
 
-var fragment = arbutus.parseHTML('<p>alpha beta</p>');
-document.body.appendChild(fragment);
+    var fragment = arbutus.parseHTML('<p>alpha beta</p>');
+    document.body.appendChild(fragment);
 
 Note that a call to this function is relatively expensive and you probably
 don't want to have a loop of thousands with calls to this function.
+
+@param {string} html The string of HTML to be parsed.
+
+@param {Document} [doc] The document object to create the new DOM nodes.
+
+@return {DocumentFragment}
 
 */
     arbutus.parseHTML = function(html, doc) {
